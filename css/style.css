@@ -314,6 +314,7 @@ section.text-white .sectionTitle h2::after {
   margin-bottom: 0.625em;
   background-color: rgba(125, 125, 125, 0.2);
   border: 0.5px solid #121212;
+  border-radius: 5px;
 }
 
 .pkuralResponsiveTable-Wrap table tr.tr_group-nextGroup {
@@ -661,9 +662,12 @@ section.firstSection {
   padding: 80px 0 94px;
   margin: 0 0 30px;
   font-family: ATVT;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 section.firstSection h1 {
+  text-transform: lowercase;
   font-family: ATVT;
 }
 
@@ -762,6 +766,10 @@ section.advantageSection .advantageItem-icon_delivery {
 
 section.advantageSection .advantageItem-icon_quality {
   background-image: url(../img/svgicons/advantageQualityIcon.svg);
+}
+
+section.aboutSection {
+  border-radius: 20px;
 }
 
 section.aboutSection.aboutSection-blackbg {
@@ -863,6 +871,10 @@ section.photoGallery .swiperSliderWrap .swiper-button-next {
 
 section.photoGallery .photoGallery-circleButton {
   margin-bottom: 20px;
+}
+
+section.yellowSection {
+  border-radius: 20px;
 }
 
 section.yellowSection .yellowSection_contentWrapper {
@@ -1207,6 +1219,7 @@ section.priceListSection .sectionContent_buttons {
 .questions {
   background-color: #505050;
   color: #FFFFFF;
+  border-radius: 20px;
 }
 
 .questions .sectionTitle h2::after {
@@ -1625,8 +1638,8 @@ section.mapSection .mapSection-imgWrap {
 
 section.contactsSection {
   background: #FFA703;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   margin-bottom: 0;
   padding-bottom: 60px;
 }
@@ -1693,8 +1706,8 @@ section.contactsSection .sectionText a:focus {
 footer {
   background: #505050;
   padding: 30px 0 40px;
-  border-top-right-radius: 40px;
-  border-top-left-radius: 40px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
   margin-top: -35px;
 }
 
@@ -2204,6 +2217,7 @@ footer .footer_orginfo-policty {
     margin-bottom: 0;
     display: table-row;
     border: none;
+    border-radius: 0;
   }
 
   .pkuralResponsiveTable-Wrap table td {
@@ -2477,6 +2491,11 @@ footer .footer_orginfo-policty {
     padding: 15px 30px;
   }
 
+  .no-webp header .header_topmenu-wrap .header_topmenu-navWrap,
+  .webp header .header_topmenu-wrap .header_topmenu-navWrap {
+    background-image: none;
+  }
+
   header .header_topmenu {
     display: block;
   }
@@ -2494,6 +2513,10 @@ footer .footer_orginfo-policty {
 
   header .header_topmenu .header_topmenu-burgerWrap {
     display: none;
+  }
+
+  header .header_topmenu-wrap .header_topmenu-navWrap {
+    background-image: none;
   }
 
   header .header_topmenu-navWrap {
@@ -2590,6 +2613,8 @@ footer .footer_orginfo-policty {
 
   section.firstSection {
     margin: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
   }
 
   .firstSection-text {
@@ -2667,6 +2692,10 @@ footer .footer_orginfo-policty {
     min-height: 50px;
   }
 
+  section.aboutSection {
+    border-radius: 30px;
+  }
+
   section.aboutSection .aboutSection-gallery,
   section.aboutSection .aboutSection_numbers {
     margin: 0 auto;
@@ -2735,6 +2764,10 @@ footer .footer_orginfo-policty {
 
   section.photoGallery .photoGallery-circleButton {
     margin-bottom: 40px;
+  }
+
+  section.yellowSection {
+    border-radius: 30px;
   }
 
   section.yellowSection .yellowSection_content {
@@ -2863,6 +2896,7 @@ footer .footer_orginfo-policty {
   }
 
   .madedProduction .poductionList_item {
+    border-radius: 5px;
     padding: 20px 20px 30px;
     width: 459px;
     min-height: 370px;
@@ -2900,6 +2934,10 @@ footer .footer_orginfo-policty {
 
   section.priceListSection .sectionContent_columnText {
     margin-left: 20px;
+  }
+
+  .questions {
+    border-radius: 30px;
   }
 
   .questions .questions__item-answer {
@@ -2990,6 +3028,11 @@ footer .footer_orginfo-policty {
     right: 0;
   }
 
+  section.contactsSection {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
   section.contactsSection .sectionContent-map_whiteWrap {
     width: 450px;
   }
@@ -3009,6 +3052,11 @@ footer .footer_orginfo-policty {
 
   section.contactsSection .sectionText div a {
     font-size: 18px;
+  }
+
+  footer {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
   }
 
   footer .footer_contacts a,
@@ -3665,6 +3713,10 @@ footer .footer_orginfo-policty {
 
   .firstSection.product-firstSection h1 .h1_accentSpan {
     font-size: 75px;
+  }
+
+  .h1-paddingleft {
+    padding-left: 495px;
   }
 
   section.aboutSection .aboutSection-gallery {
