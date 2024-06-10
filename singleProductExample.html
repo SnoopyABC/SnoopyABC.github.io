@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/style.min.css?_v=20240609160936">
+    <link rel="stylesheet" href="css/style.min.css?_v=20240610163617">
     <title>Конкретный продукт в категории</title>
 </head>
     <body>
@@ -170,10 +170,10 @@
           <div class="title__form">
             <div>Оставить заявку</div>
           </div>
-          <form>
+          <form name="popup_requestForm">
             <input type="hidden" name="project_name" value="ПК-Урал" />
             <!--TODO:добавть имейл-->
-            <input type="hidden" name="admin_email" value="TODO:добавть мыло" />
+            <input type="hidden" name="admin_email" value="kroosh123@gmail.com" />
             <input
               type="hidden"
               name="form_subject"
@@ -197,7 +197,7 @@
                 name="E-mail"
                 placeholder="Ваш email"
                 required=""
-                type="text"
+                type="email"
               />
             </div>
             <div class="form-inputsGroup">
@@ -237,10 +237,10 @@
           <div class="title__form">
             <div>Калькулятор</div>
           </div>
-          <form>
+          <form name="popup_CalculateForm">
             <input type="hidden" name="project_name" value="ПК-Урал" />
             <!--TODO:добавть имейл-->
-            <input type="hidden" name="admin_email" value="TODO:добавть мыло" />
+            <input type="hidden" name="admin_email" value="test@test.test" />
             <input
               type="hidden"
               name="form_subject"
@@ -264,7 +264,7 @@
                 name="E-mail"
                 placeholder="Ваш email"
                 required=""
-                type="text"
+                type="email"
               />
             </div>
             <div class="form-inputsGroup">
@@ -276,16 +276,20 @@
               />
             </div>
             <div class="form-inputsGroup">
-              <input
-                name="product"
-                placeholder="Продукт"
-                required=""
-                type="text"
-              />
+              <select required="">
+                <option value="not selected">Выберите продукт</option>
+                <option value="shheben-4-8-mm">Щебень 4-8мм</option>
+                <option value="shheben-8-11-mm">Щебень 8-11,2мм</option>
+                <option value="shheben-11-16-mm">Щебень 11,2-16мм</option>
+                <option value="shheben-16-22-mm">Щебень 16-22,4мм</option>
+                <option value="otsev-0-4-mm">Отсев 0-4мм</option>
+              </select>
+              <!--TODO:добавть имейл-->
               <input
                 name="quantity"
                 placeholder="Колличество"
-                type="text"
+                type="number"
+                required=""
               />
               <div class="form_uomWrap">
                 <div class="radio">
@@ -346,6 +350,6 @@
   </div>
 </div>
 
-        <script src="js/app.min.js?_v=20240609160936"></script>
+        <script src="js/app.min.js?_v=20240610163617"></script>
     </body>
 </html>

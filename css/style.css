@@ -233,7 +233,8 @@ section.text-white .sectionTitle h2::after {
   text-transform: lowercase;
 }
 
-.pkural_buttonWrap div.pkural_button {
+.pkural_buttonWrap div.pkural_button,
+.pkural_buttonWrap a.pkural_button {
   display: block;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -284,7 +285,7 @@ section.text-white .sectionTitle h2::after {
 .pkural_buttonWrap .pkural_button-orange:hover,
 .pkural_buttonWrap .pkural_button-orange:active,
 .pkural_buttonWrap .pkural_button-orange:focus {
-  background-color: #FFB11E;
+  background-color: #fc8416;
 }
 
 .pkural_buttonWrap .pkural_button-gray {
@@ -502,7 +503,7 @@ section.text-white .sectionTitle h2::after {
 .circle-buttonWrapper:active .circle-button,
 .circle-buttonWrapper:focus .circle-button,
 .circle-buttonWrapper:hover .circle-button {
-  background-color: #FFB11E;
+  background-color: #fc8416;
 }
 
 .circle-buttonWrapper:active .circle-button .arrow,
@@ -776,6 +777,10 @@ section.aboutSection.aboutSection-blackbg {
   background-color: #505050;
 }
 
+section.aboutSection .aboutSection-link {
+  display: none;
+}
+
 section.aboutSection .aboutSection_numberItem {
   margin-bottom: 34px;
   width: 50%;
@@ -888,7 +893,7 @@ section.yellowSection .yellowSection_flightStones {
 
 .yellowSection_type1 {
   margin: 20px 0 80px;
-  background-color: #FFB11E;
+  background-color: #FFA703;
 }
 
 .yellowSection_type1 .yellowSection-title {
@@ -1896,7 +1901,8 @@ footer .footer_orginfo-policty {
 }
 
 .popup_wrap input,
-.popup_wrap textarea {
+.popup_wrap textarea,
+.popup_wrap select {
   font-family: ATVT;
   color: #6C6C6C;
   width: 100%;
@@ -1916,7 +1922,10 @@ footer .footer_orginfo-policty {
 .popup_wrap input:active,
 .popup_wrap textarea:hover,
 .popup_wrap textarea:focus,
-.popup_wrap textarea:active {
+.popup_wrap textarea:active,
+.popup_wrap select:hover,
+.popup_wrap select:focus,
+.popup_wrap select:active {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -3286,6 +3295,11 @@ footer .footer_orginfo-policty {
     padding: 55px 0;
   }
 
+  section.aboutSection .aboutSection-link {
+    display: block;
+    margin-top: 30px;
+  }
+
   section.aboutSection .aboutSection-gallery {
     margin: 0;
     width: 650px;
@@ -3312,6 +3326,10 @@ footer .footer_orginfo-policty {
   section.aboutSection .aboutSection_numbers .aboutSection_numberItem {
     margin-bottom: 50px;
     width: 482px;
+  }
+
+  section.aboutSection .aboutSection_numbers .aboutSection_numberItem:last-child {
+    margin-bottom: 0;
   }
 
   section.aboutSection .aboutSection_numbers .aboutSection_numberItem-header {
@@ -3513,6 +3531,10 @@ footer .footer_orginfo-policty {
     width: 600px;
   }
 
+  section.mapSection .mapSection-buttonsWrap {
+    z-index: 1;
+  }
+
   section.contactsSection .sectionText {
     text-align: left;
   }
@@ -3607,7 +3629,8 @@ footer .footer_orginfo-policty {
     width: 315px;
   }
 
-  .popup_wrap input {
+  .popup_wrap input,
+  .popup_wrap select {
     width: 315px;
   }
 
