@@ -797,6 +797,10 @@ section.homepage-firstSection {
   margin-bottom: 30px;
 }
 
+section.prodcutsSection h3 {
+  text-transform: uppercase;
+}
+
 section.prodcutsSection .prodcutsSection_tiles ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3160,6 +3164,10 @@ footer .footer_orginfo-policty {
 
   .firstSection.product-firstSection h1 .h1_accentSpan {
     font-size: 60px;
+  }
+
+  section.prodcutsSection {
+    padding-top: 10px;
   }
 
   section.prodcutsSection h3 {
