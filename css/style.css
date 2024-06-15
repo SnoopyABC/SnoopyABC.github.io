@@ -251,6 +251,7 @@ section.pkuralContent .pkuralContent-textWrap ul {
 section.pkuralContent .pkuralContent-textWrap ul li {
   list-style: disc;
   margin-left: 15px;
+  margin-bottom: 5px;
 }
 
 section.pkuralContent .section6advantages h3 {
@@ -2963,6 +2964,17 @@ footer .footer_orginfo-policty {
     margin-right: 0;
   }
 
+  section.pkuralContent .pkuralContent-textWrap_2columns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: justify;
+  }
+
+  section.pkuralContent .pkuralContent-textWrap_2columns > div:first-child {
+    margin-right: 60px;
+  }
+
   .pkural_buttonWrap div.pkural_button {
     font-size: 16px;
   }
@@ -3164,6 +3176,10 @@ footer .footer_orginfo-policty {
 
   .firstSection.product-firstSection h1 .h1_accentSpan {
     font-size: 60px;
+  }
+
+  .firstSection.category-firstSection.about-firstSection .firstSection-text {
+    width: 560px;
   }
 
   section.prodcutsSection {
@@ -3410,6 +3426,16 @@ footer .footer_orginfo-policty {
   section.aboutSection div.yellowSection_type1 {
     margin: 143px 0 0;
     padding: 55px 0;
+  }
+
+  section.aboutSection .sectionContent_buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  section.aboutSection .sectionContent_buttons > div:first-child {
+    margin-right: 20px;
   }
 
   section.photoGallery .swiper-slide {
@@ -4476,6 +4502,14 @@ footer .footer_orginfo-policty {
 
   .sectionContent_columnGalery {
     width: 490px;
+  }
+
+  section.pkuralContent .pkuralContent-textWrap_2columns > div:first-child {
+    width: 439px;
+  }
+
+  section.pkuralContent .pkuralContent-textWrap_2columns > div:last-child {
+    width: 315px;
   }
 
   header .header_topmenu-navWrap ul {
