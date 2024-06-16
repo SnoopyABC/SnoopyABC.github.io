@@ -9,9 +9,17 @@
 }
 
 @font-face {
-  font-family: ATVT;
+  font-family: Tektur;
   font-display: swap;
-  src: url("../fonts/ATVT.woff2") format("woff2"), url("../fonts/ATVT.woff") format("woff");
+  src: url("../fonts/Tektur-Regular.woff2") format("woff2"), url("../fonts/Tektur-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Unbounded;
+  font-display: swap;
+  src: url("../fonts/Unbounded-Regular.woff2") format("woff2"), url("../fonts/Unbounded-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -63,14 +71,14 @@ h1 span.h1_accentSpan {
 
 h2 {
   font-size: 25px;
-  font-family: ATVT;
+  font-family: Unbounded;
   margin-bottom: 30px;
   font-weight: 400;
 }
 
 h3 {
   font-size: 14px;
-  font-family: ATVT;
+  font-family: Unbounded;
   margin-bottom: 20px;
   font-weight: 400;
 }
@@ -288,7 +296,7 @@ section.pkuralContent .section6advantages .section6advantages-item p:last-child 
   border: 0.5px solid #121212;
   border-radius: 4px;
   padding: 8px 10px;
-  font-family: ATVT;
+  font-family: Unbounded;
   text-transform: lowercase;
 }
 
@@ -420,7 +428,7 @@ section.pkuralContent .section6advantages .section6advantages-item p:last-child 
   */
   content: attr(data-label);
   float: left;
-  font-family: ATVT;
+  font-family: Unbounded;
 }
 
 .pkuralResponsiveTable-Wrap table td:last-child {
@@ -449,7 +457,7 @@ section.pkuralContent .section6advantages .section6advantages-item p:last-child 
 
 .circle-buttonWrapper svg textPath {
   font-size: 20px;
-  font-family: ATVT;
+  font-family: Unbounded;
   -webkit-transition: opacity ease-in-out 500ms;
   transition: opacity ease-in-out 500ms;
 }
@@ -694,7 +702,7 @@ header .header_topmenu-navWrap a {
   font-size: 20px;
   text-decoration: none;
   text-transform: lowercase;
-  font-family: ATVT;
+  font-family: Unbounded;
 }
 
 header .header_topmenu-number a {
@@ -746,18 +754,18 @@ section.firstSection {
   background-size: cover;
   padding: 80px 0 94px;
   margin: 0 0 30px;
-  font-family: ATVT;
+  font-family: Unbounded;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
 
 section.firstSection h1 {
   text-transform: lowercase;
-  font-family: ATVT;
+  font-family: Unbounded;
 }
 
 section.firstSection h1 span {
-  font-family: ATVT;
+  font-family: Unbounded;
 }
 
 section.homepage-firstSection {
@@ -778,12 +786,12 @@ section.homepage-firstSection {
 .firstSection-text {
   color: #FFFFFF;
   text-align: justify;
-  font-family: ATVT;
+  font-family: Unbounded;
 }
 
 .firstSection-text span {
   background-color: #FFA703;
-  font-family: ATVT;
+  font-family: Unbounded;
 }
 
 .firstSection.category-firstSection header {
@@ -832,7 +840,7 @@ section.prodcutsSection .prodcutsSection_tiles ul li a {
   border: 0.5px solid #121212;
   background: rgba(18, 18, 18, 0.2);
   color: #121212;
-  font-family: ATVT;
+  font-family: Unbounded;
   text-transform: lowercase;
   text-decoration: none;
   -webkit-transition: background-color linear 0.3s;
@@ -900,7 +908,7 @@ section.prodcutsSection .prodcutsSection_items .prodcutsSection_item-imgWrap img
 }
 
 section.prodcutsSection .prodcutsSection_items .prodcutsSection_item-header {
-  font-family: ATVT;
+  font-family: Unbounded;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -919,7 +927,7 @@ section.prodcutsSection .prodcutsSection_items .prodcutsSection_item-specifcatio
 }
 
 section.prodcutsSection .prodcutsSection_items .prodcutsSection_item-price {
-  font-family: ATVT;
+  font-family: Unbounded;
   text-align: center;
 }
 
@@ -963,14 +971,14 @@ section.prodcutsSection .certainProduct_item .certainProduct_item-imgWrap img {
 }
 
 section.prodcutsSection .certainProduct_item .certainProduct_item-header {
-  font-family: ATVT;
+  font-family: Unbounded;
   text-align: center;
   margin-bottom: 40px;
 }
 
 section.prodcutsSection .certainProduct_item .certainProduct_item-specifcationListHeader,
 section.prodcutsSection .certainProduct_item .certainProduct_item-priceHeader {
-  font-family: ATVT;
+  font-family: Unbounded;
   margin-bottom: 20px;
 }
 
@@ -1084,7 +1092,7 @@ section.advantageSection .advantageItem {
 
 section.advantageSection .advantageItem-header {
   font-size: 15px;
-  font-family: ATVT;
+  font-family: Unbounded;
   margin-bottom: 20px;
 }
 
@@ -1135,7 +1143,7 @@ section.aboutSection .aboutSection_numberItem a {
 
 section.aboutSection .aboutSection_numberItem-header {
   font-size: 22px;
-  font-family: ATVT;
+  font-family: Unbounded;
 }
 
 section.aboutSection .aboutSection_numberItem-text {
@@ -1253,7 +1261,7 @@ div.yellowSection .yellowSection_flightStones {
 }
 
 .yellowSection_type1 .yellowSection-title {
-  font-family: ATVT;
+  font-family: Unbounded;
   margin-bottom: 10px;
 }
 
@@ -1262,7 +1270,7 @@ div.yellowSection .yellowSection_flightStones {
 }
 
 .yellowSection_type1 .yellowSection-title span {
-  font-family: ATVT;
+  font-family: Unbounded;
   background: #FFFFFF;
   font-size: 13px;
 }
@@ -1281,7 +1289,7 @@ div.yellowSection .yellowSection_flightStones {
 
 .yellowSection_type1 form input,
 .yellowSection_type1 form textarea {
-  font-family: ATVT;
+  font-family: Unbounded;
   color: #121212;
   margin-bottom: 15px;
   outline: none;
@@ -1346,7 +1354,7 @@ div.yellowSection .yellowSection_flightStones {
 
 .yellowSection_type2 .yellowSection-title {
   font-size: 14px;
-  font-family: ATVT;
+  font-family: Unbounded;
   padding: 10px 30px;
   background-color: #FFA703;
   border-radius: 11px;
@@ -1357,7 +1365,7 @@ div.yellowSection .yellowSection_flightStones {
 
 .yellowSection_type2 .yellowSection-title span {
   font-size: 14px;
-  font-family: ATVT;
+  font-family: Unbounded;
 }
 
 .yellowSection_type2 .yellowSection-title span.yellowSection-title_company {
@@ -1379,7 +1387,7 @@ div.yellowSection .yellowSection_flightStones {
 }
 
 .yellowSection_type2 .yellowSection-links {
-  font-family: ATVT;
+  font-family: Unbounded;
   color: #121212;
 }
 
@@ -1389,12 +1397,12 @@ div.yellowSection .yellowSection_flightStones {
 }
 
 .yellowSection_type2 .yellowSection-links .yellowSection-link-address {
-  font-family: ATVT;
+  font-family: Unbounded;
   color: #121212;
 }
 
 .yellowSection_type2 .yellowSection-links a {
-  font-family: ATVT;
+  font-family: Unbounded;
   color: #121212;
   text-decoration: none;
 }
@@ -1452,7 +1460,7 @@ div.yellowSection .yellowSection_flightStones {
 }
 
 .madedProduction .poductionList_item-title {
-  font-family: ATVT;
+  font-family: Unbounded;
   text-transform: lowercase;
   margin-bottom: 5px;
 }
@@ -1488,7 +1496,7 @@ div.yellowSection .yellowSection_flightStones {
 .madedProduction .poductionList_item .poductionList_item-link a {
   font-size: 11px;
   text-transform: lowercase;
-  font-family: ATVT;
+  font-family: Unbounded;
   border: 0.3px solid #121212;
   border-radius: 3px;
   padding: 0 10px;
@@ -1919,7 +1927,7 @@ section.mapSection .mapSectionImg-background {
 }
 
 section.mapSection .mapSection-info_header {
-  font-family: ATVT;
+  font-family: Unbounded;
   margin-bottom: 20px;
 }
 
@@ -2030,7 +2038,7 @@ section.contactsSection .sectionContent-map_whiteWrap {
 }
 
 section.contactsSection .whiteWrap_item-header {
-  font-family: ATVT;
+  font-family: Unbounded;
   margin-bottom: 10px;
 }
 
@@ -2044,16 +2052,16 @@ section.contactsSection .whiteWrap_item:last-child {
 
 section.contactsSection .sectionText {
   text-align: center;
-  font-family: ATVT;
+  font-family: Unbounded;
   margin-bottom: 40px;
 }
 
 section.contactsSection .sectionText div {
-  font-family: ATVT;
+  font-family: Unbounded;
 }
 
 section.contactsSection .sectionText a {
-  font-family: ATVT;
+  font-family: Unbounded;
   color: #121212;
   text-decoration: none;
 }
@@ -2089,7 +2097,7 @@ footer .footer_categories {
 
 footer .footer_categories-header {
   color: #FFA703;
-  font-family: ATVT;
+  font-family: Unbounded;
   text-transform: lowercase;
   margin-bottom: 10px;
 }
@@ -2097,7 +2105,7 @@ footer .footer_categories-header {
 footer .footer_contacts a,
 footer .footer_categories a {
   font-size: 10px;
-  font-family: ATVT;
+  font-family: Unbounded;
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -2118,18 +2126,18 @@ footer .footer_contacts {
 
 footer .footer_contacts > div {
   font-size: 10px;
-  font-family: ATVT;
+  font-family: Unbounded;
   color: #FFFFFF;
 }
 
 footer .footer_contacts > div span {
   font-size: 10px;
-  font-family: ATVT;
+  font-family: Unbounded;
 }
 
 footer .footer_contacts .footer_contacts-header {
   color: #FFA703;
-  font-family: ATVT;
+  font-family: Unbounded;
   text-transform: lowercase;
   font-size: 14px;
   margin-bottom: 10px;
@@ -2151,7 +2159,7 @@ footer .footer_contactsWrap {
 footer .footer_orginfo > div,
 footer .footer_orginfo a {
   font-size: 7px;
-  font-family: ATVT;
+  font-family: Unbounded;
   color: #FFFFFF;
 }
 
@@ -2232,7 +2240,7 @@ footer .footer_orginfo-policty {
 }
 
 .popup_wrap .title__form div {
-  font-family: ATVT;
+  font-family: Unbounded;
   font-size: 25px;
   display: inline-block;
   position: relative;
@@ -2260,7 +2268,7 @@ footer .footer_orginfo-policty {
 .popup_wrap input,
 .popup_wrap textarea,
 .popup_wrap select {
-  font-family: ATVT;
+  font-family: Unbounded;
   color: #6C6C6C;
   width: 100%;
   margin-bottom: 15px;
@@ -2358,7 +2366,7 @@ footer .footer_orginfo-policty {
 }
 
 .popup_calculate .form_uomWrap label {
-  font-family: ATVT;
+  font-family: Unbounded;
   font-size: 16px;
   text-transform: lowercase;
 }
