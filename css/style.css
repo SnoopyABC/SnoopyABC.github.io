@@ -1,6 +1,30 @@
 @charset "UTF-8";
 
 @font-face {
+  font-family: FiraSansCondensed;
+  font-display: swap;
+  src: url("../fonts/FiraSansCondensed-Bold.woff2") format("woff2"), url("../fonts/FiraSansCondensed-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FiraSansCondensed;
+  font-display: swap;
+  src: url("../fonts/FiraSansCondensed-Medium.woff2") format("woff2"), url("../fonts/FiraSansCondensed-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FiraSansCondensed;
+  font-display: swap;
+  src: url("../fonts/FiraSansCondensed-Regular.woff2") format("woff2"), url("../fonts/FiraSansCondensed-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: Montserrat;
   font-display: swap;
   src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
@@ -9,17 +33,17 @@
 }
 
 @font-face {
-  font-family: Tektur;
+  font-family: Unbounded;
   font-display: swap;
-  src: url("../fonts/Tektur-Regular.woff2") format("woff2"), url("../fonts/Tektur-Regular.woff") format("woff");
+  src: url("../fonts/Unbounded-Regular.woff2") format("woff2"), url("../fonts/Unbounded-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Unbounded;
+  font-family: Tektur;
   font-display: swap;
-  src: url("../fonts/Unbounded-Regular.woff2") format("woff2"), url("../fonts/Unbounded-Regular.woff") format("woff");
+  src: url("../fonts/Tektur-Regular.woff2") format("woff2"), url("../fonts/Tektur-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -416,9 +440,21 @@ section.pkuralContent .section6advantages .section6advantages-item p:last-child 
 .pkuralResponsiveTable-Wrap table td {
   border-bottom: 0.5px solid #121212;
   display: block;
-  font-size: 0.8em;
+  font-size: 14px;
   text-align: right;
   color: #121212;
+}
+
+.pkuralResponsiveTable-Wrap table td a {
+  font-size: 14px;
+  color: #121212;
+  text-decoration: underline;
+}
+
+.pkuralResponsiveTable-Wrap table td a:hover,
+.pkuralResponsiveTable-Wrap table td a:active,
+.pkuralResponsiveTable-Wrap table td a:focus {
+  text-decoration: none;
 }
 
 .pkuralResponsiveTable-Wrap table td::before {
@@ -879,6 +915,14 @@ section.prodcutsSection .prodcutsSection_items .prodcutsSection_item {
   border-radius: 5px;
   border: 1px solid #121212;
   margin: 0 auto 64px;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+
+section.prodcutsSection .prodcutsSection_items .prodcutsSection_item:hover,
+section.prodcutsSection .prodcutsSection_items .prodcutsSection_item:focus,
+section.prodcutsSection .prodcutsSection_items .prodcutsSection_item:active {
+  background-color: #FFA703;
 }
 
 section.prodcutsSection .prodcutsSection_items .prodcutsSection_item:last-child {
@@ -1483,14 +1527,13 @@ div.yellowSection .yellowSection_flightStones {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.madedProduction .poductionList_item:nth-child(2n+1) {
-  background-color: #FFA703;
-}
-
-.madedProduction .poductionList_item:nth-child(2n) {
   background-color: rgba(125, 125, 125, 0.2);
+}
+
+.madedProduction .poductionList_item:hover,
+.madedProduction .poductionList_item:focus,
+.madedProduction .poductionList_item:active {
+  background-color: #FFA703;
 }
 
 .madedProduction .poductionList_item .poductionList_item-link a {
@@ -2012,42 +2055,6 @@ section.contactsSection {
   border-top-right-radius: 20px;
   margin-bottom: 0;
   padding-bottom: 75px;
-}
-
-.no-webp section.contactsSection .sectionContent-map{
-  background-image: url(../img/contactsSection-bg.png); }
-
-section.contactsSection .sectionContent-map {
-  min-height: 445px;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-section.contactsSection .sectionContent-map_whiteWrap {
-  background: #FFFFFF;
-  border-radius: 5px;
-  padding: 30px 20px;
-}
-
-section.contactsSection .whiteWrap_item-header {
-  font-family: Unbounded;
-  margin-bottom: 10px;
-}
-
-section.contactsSection .whiteWrap_item {
-  margin-bottom: 40px;
-}
-
-section.contactsSection .whiteWrap_item:last-child {
-  margin-bottom: 0;
 }
 
 section.contactsSection .sectionText {
@@ -2927,6 +2934,10 @@ footer .footer_orginfo-policty {
             justify-content: space-between;
   }
 
+  .circle-buttonWrapper {
+    margin-bottom: -40px;
+  }
+
   section.pkuralContent .pkuralContent-galleryWrap {
     display: block;
     margin-top: 40px;
@@ -2996,6 +3007,10 @@ footer .footer_orginfo-policty {
   }
 
   .pkuralResponsiveTable-Wrap table td {
+    font-size: 15px;
+  }
+
+  .pkuralResponsiveTable-Wrap table td a {
     font-size: 15px;
   }
 
@@ -3736,14 +3751,23 @@ footer .footer_orginfo-policty {
     right: 0;
   }
 
+  section.mapSection .mapSection-info_text > div {
+    font-size: 16px;
+  }
+
+  section.mapSection .mapSection-info_linksList {
+    margin-bottom: 45px;
+  }
+
+  section.mapSection .mapSection-info_linksList li a,
+  section.mapSection .mapSection-info_linksList li span {
+    font-size: 16px;
+  }
+
   section.contactsSection {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     padding-bottom: 135px;
-  }
-
-  section.contactsSection .sectionContent-map_whiteWrap {
-    width: 450px;
   }
 
   section.contactsSection .whiteWrap_item-text {
@@ -4353,20 +4377,6 @@ footer .footer_orginfo-policty {
     text-align: left;
   }
 
-  section.contactsSection .sectionContent-map {
-    padding-left: 500px;
-  }
-
-  section.contactsSection .sectionContent-map_whiteWrap {
-    width: 500px;
-  }
-
-  section.contactsSection .sectionContent-map {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-
   footer .footer_logo svg {
     height: auto;
     width: 113px;
@@ -4719,10 +4729,6 @@ footer .footer_orginfo-policty {
     width: 415px;
   }
 
-  section.contactsSection .sectionContent-map_whiteWrap {
-    width: 670px;
-  }
-
   footer .footerContentWrap {
     padding-left: 500px;
   }
@@ -4747,8 +4753,6 @@ footer .footer_orginfo-policty {
 .webp .yellowSection_type2 .flightStonesRight{ background-image: url(../img/yellowSectionType1-stones2.webp); }
 
 .webp .yellowSection_type2 .flightStonesMiddle{ background-image: url(../img/yellowSectionType1-stones2.webp); }
-
-.webp section.contactsSection .sectionContent-map{ background-image: url(../img/contactsSection-bg.webp); }
 
 @media (min-width: 992px){
 
